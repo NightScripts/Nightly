@@ -30,7 +30,7 @@ end
 function Nightly.get()
     local executor = identifyexecutor()
     local pi = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
-    return executor .. " Nightly Loaded" .. pi.Name
+    return executor .. " Nightly Loaded: " .. pi.Name
 end
 
 return Nightly
