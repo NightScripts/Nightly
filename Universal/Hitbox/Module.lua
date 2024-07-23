@@ -3,7 +3,7 @@ local NightHit = {}
 
 NightHit.Config = {
     BoxActive = true,
-    TeamCheck = false,
+    TeamCheck = true,
     BoxSize = 10,
     BoxTransparency = 0.5,
     BoxColor = "Pink",
